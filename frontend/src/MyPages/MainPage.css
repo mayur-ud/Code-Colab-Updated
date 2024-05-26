@@ -1,0 +1,62 @@
+.cont{
+    margin: 0;
+    min-height: 50vh;
+}
+
+.left{
+    width: 15%;
+    background-color: hsl(239, 25%, 15%);
+    margin: 0;
+}
+
+.main{
+    background-color: hsl(231, 15%, 18%);
+    min-height: 100vh;
+    width: 85%;
+    margin-right: 48px;
+}
+
+.right{
+    background-color: hsl(239, 25%, 18%);
+    position: fixed;
+    right: 0;
+    top: 2px;
+    min-width: 48px;
+    height: 100vh
+}
+
+.mantine-Input-input .mantine-NativeSelect-input{
+    color: blue;
+}
+.loader {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    color: #FFF;
+    box-sizing: border-box;
+    animation: animloader 1s linear infinite alternate;
+  }
+  
+  @keyframes animloader {
+    0% {
+      box-shadow: -38px -6px, -14px 6px,  14px -6px;
+    }
+    33% {
+      box-shadow: -38px 6px, -14px -6px,  14px 6px;
+    }
+    66% {
+      box-shadow: -38px -6px, -14px 6px, 14px -6px;
+    }
+    100% {
+      box-shadow: -38px 6px, -14px -6px, 14px 6px;
+    }
+  }
+      
+  .loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }

@@ -1,0 +1,14 @@
+    FROM node:latest
+
+    WORKDIR /app
+
+
+    COPY server.js .
+    COPY package.json .
+
+    RUN npm install
+    # Expose ports
+    EXPOSE 8080
+
+    # Command to run your application
+    CMD ["node","server.js"]

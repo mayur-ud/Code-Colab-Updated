@@ -1,0 +1,21 @@
+{
+  "name": "code-colab",
+  "version": "1.0.0",
+  "description": "Code Collab project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev" : "node dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayur-ud/Code-Colab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayur-ud/Code-Colab/issues"
+  },
+  "homepage": "https://github.com/tushar0807/Code-Colab#readme"
+}
